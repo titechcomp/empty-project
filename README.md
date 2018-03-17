@@ -20,6 +20,8 @@
 
 1. （教員）`docs` ディレクトリに保存されたが GitHub Pages として公開される．公開ページはGitHub のコードページではなく，Settings ページに指定された URL となることに注意して下さい．
 
+    たとえば，このリポジトリの URL は `https://github.com/titechcomp/empty-project/` ですが，このページを公開したウェブサイトの URL は `https://titechcomp.github.io/empty-project/` です．
+
 ## 編集作業
 
 `docs/` 以下に HTML ファイル等を保存し，GitHub にコミットすれば公開されます．
@@ -28,7 +30,7 @@ GitHub へのプッシュから数秒後に GitHub Pages で閲覧できるよ�
 
 `https://titechcomp.github.io/empty-project/?3.141592653`
 
-自己サイト内のページの参照にはリポジトリ名からの相対パス名を利用するとよいでしょう（例: `/empty-project/day1/page12.html`）．もちろん，相対パスも利用できます．
+自己サイト内のページの参照にはリポジトリ名からの絶対パス名を利用するのが便利でしょう（例: `/empty-project/day1/page12.html`）．もちろん，相対パスも利用できます．
 
 ページの構成方法については[既存のウェブサイト群](https://github.com/titechcomp)のソースコードの`docs`ディレクトリのファイルが参考になるでしょう．
 

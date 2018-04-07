@@ -40,7 +40,11 @@ Git add/commit/push して、GitHub の様子を観察することもできま�
 
 一番のお勧めは、手元のパソコンでウェブサーバを起動することで。でも、Apache をインストールして設定するのは面倒。たしかに、それは面倒。でも、もっと簡便な方法があるんです。それは PHP をはじめとするスクリプト言語の組込み機能のHTTPサーバを利用することです。
 
-macOS の場合、元々、PHP が利用できるのでウェブサイトのディレクトリに `cd` し、 `php --server localhost:8080 --docroot .` するだけでサーバを起動できます。みなさんの便利のために `bin/server` としてこのスクリプトを保存しておきました。PHP が利用できない場合は、[ほかのスクリプト言語を使って簡単にできる](https://qiita.com/sudahiroshi/items/e74d61d939f18779970d)ようです。
+macOS の場合、元々、PHP が利用できるのでウェブサイトのディレクトリに `cd` し、 `php --server localhost:8080 --docroot .` するだけでサーバを起動できます。
+
+みなさんの便利のために `bin/server` としてこのスクリプトを保存しておきました。`README.md` があるディレクトリから `bin/server` で起動してから、`http://localhost/8080/` を開くと `docs/index.html` の内容が表示されます。
+
+PHP が利用できない場合は、[ほかのスクリプト言語を使って簡単にできる](https://qiita.com/sudahiroshi/items/e74d61d939f18779970d)ようです。
 
 ## Jekyll か HTML か
 
